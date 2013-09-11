@@ -20,6 +20,8 @@
 //= require dailyember
 
 // for more details see: http://emberjs.com/guides/application/
-Dailyember = Ember.Application.create();
+Dailyember = Ember.Application.create({
+  rootElement: "#main",
+});
 
 //= require_tree .
