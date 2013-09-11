@@ -24,6 +24,10 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+gem "ember-rails", "~> 0.13.0"
+gem "ember-source", "~> 1.0.0"
+gem "ember-data-source", "~> 1.0.0.beta.2"
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
